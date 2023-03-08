@@ -335,6 +335,8 @@ footer {
 }
 
 #regras #title {
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 40px;
     color: #f6bb2b;
