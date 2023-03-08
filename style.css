@@ -14,7 +14,8 @@ body {
 }
 
 header {
-    background-color: #f6bb2b;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,7 +40,7 @@ nav {
 }
 
 nav a {
-    color: #101010;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -58,10 +59,12 @@ nav a:hover{
 
 #apresentation {
     padding: 10px;
+    color: white;
 }
 
 #apresentation #main {
-    background-color: #00aeef;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -83,6 +86,7 @@ nav a:hover{
 }
 
 #apresentation #main #text h1 {
+    color: #101010;
     margin-bottom: 20px;
 }
 
@@ -120,10 +124,11 @@ nav a:hover{
 #local {
     margin-top: 30px;
     padding-bottom: 20px;
-    color: #101010;
+    color: white;
     border-radius: 10px;
     width: 97vw;
-    background-color: #e2666e;
+    background: rgb(226,102,110);
+    background: radial-gradient(circle, rgba(226,102,110,1) 0%, #f6bb2b 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,17 +178,45 @@ nav a:hover{
     align-items: center;
 }
 
+#div-align {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-preco .preco-bom {
+    color: black;
+    background-color: #81cb71;
+    padding: 10px;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.card-preco .preco-ruim{
+    color: black;
+    background-color: #e2666e;
+    padding: 10px;
+    border-radius: 20px;
+    width: 45%;
+}
+
 #preco {
     font-size: 30px;
 }
 
 #btn-inscrever {
+    text-decoration: none;
     margin-top: 40px;
-    background-color: #eeeeee;
-    color: #101010;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
+    color: white;
     width: 40vw;
-    height: 40px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,7 +252,8 @@ nav a:hover{
 }
 
 .card-perfil {
-    background-color: #202020;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -238,6 +272,104 @@ nav a:hover{
 .text-perfil {
     width: 40%;
     text-align: center;
+}
+
+#programacao #title {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #f6bb2b;
+    text-align: center;
+}
+
+#programacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+#programacao #main {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    width: 100%;
+}
+
+#programacao .time-info {
+    background: none;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+footer {
+    height: 50px;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
+}
+
+#programacao .time-info p {
+    color: white;
+    text-align: center;
+}
+
+#regras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+#regras #title {
+    text-align: center;
+    font-size: 40px;
+    color: #f6bb2b;
+}
+
+#regras #main {
+    background-color: #202020;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#area-inscricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#bt-fazer-inscricao {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    width: 70vw;
+    background: rgb(246,187,43);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
 }
 
 @media screen and (max-width: 700px){
@@ -295,7 +427,28 @@ nav a:hover{
     .mapouter {
         width: 95vw;
     }
+    .card-preco {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #div-align {
+        width: 100%;
+    }
+    .card-preco .preco-ruim {
+        width: 100%;
+    }
+    .card-preco .preco-bom {
+        width: 100%;
+    }
     #btn-inscrever {
         width: 80vw;
+    }
+    #palestras #main .card-perfil .text-perfil {
+        width: 90vw;
+    }
+    #programacao .time-info {
+        background: none;
+        background-color: black;
+        flex-direction: column;
     }
 }
