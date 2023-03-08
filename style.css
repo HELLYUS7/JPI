@@ -152,6 +152,7 @@ nav a:hover{
 }
 
 #datetime {
+    text-align: center;
     font-size: 200px;
 }
 
@@ -167,6 +168,10 @@ nav a:hover{
 #inscricoes #title {
     color: #f6bb2b;
     font-size: 40px;
+}
+
+#inscricoes h4 {
+    text-align: center;
 }
 
 .card-preco {
