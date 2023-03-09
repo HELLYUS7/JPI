@@ -348,9 +348,12 @@ footer {
 }
 
 #regras #main {
-    background-color: #202020;
+    font-size: 17px;
+    background-color: black;
     border-radius: 20px;
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #area-inscricao {
@@ -376,7 +379,19 @@ footer {
     border-radius: 10px;
     width: 70vw;
     background: rgb(246,187,43);
-    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgba(0,170,239,1) 100%);
+    background: linear-gradient(90deg, rgba(246,187,43,1) 0%, rgba(226,102,110,1) 50%, rgb(0, 170, 239) 100%);
+}
+
+.red {
+    color: #e2666e;
+}
+
+.yell {
+    color: #f6bb2b;
+}
+
+.blue {
+    color: #00aaef;
 }
 
 @media screen and (max-width: 700px){
